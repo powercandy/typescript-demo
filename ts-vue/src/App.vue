@@ -1,19 +1,15 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <hello></hello>
+    <router-view></router-view>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import Hello from './components/Hello'
 
 export default Vue.extend({
-  name: 'app',
-  components: {
-    Hello
-  }
+  name: 'app'
 })
 </script>
 

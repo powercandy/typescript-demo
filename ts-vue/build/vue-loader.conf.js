@@ -10,7 +10,8 @@ module.exports = {
     extract: isProduction
   }), {
     ts: {
-      loader: 'ts-loader!tslint-loader'
+      // loader: 'ts-loader!tslint-loader'
+      loader: 'ts-loader'
     }
   }),
   transformToRequire: {
